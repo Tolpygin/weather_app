@@ -19,7 +19,7 @@ const App = () => {
     if (coords) {
       axios
         .get(
-          `http://api.weatherapi.com/v1/current.json?key=${APIkey}&q=${coords.latitude},${coords.longitude}`
+          `https://api.weatherapi.com/v1/current.json?key=${APIkey}&q=${coords.latitude},${coords.longitude}`
         )
         .then((data) => {
           setData(data.data);
