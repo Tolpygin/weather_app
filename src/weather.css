@@ -1,0 +1,20 @@
+
+.card {
+	background: #000000bc;
+	color: whitesmoke;
+	padding: 2em;
+	border-radius: 30px;
+	width: 100%;
+	max-width: 420px;
+	margin: 1em;
+ }
+ 
+ .search {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+ }
+
+ h1 {
+	 margin: 0;
+ }
